@@ -14,3 +14,5 @@ const listProducts = () => async (dispatch) => {
         : error.message})
     }
 }
+
+export {listProducts}
